@@ -228,28 +228,21 @@
               <input type='hidden' name='csrfmiddlewaretoken' value='dYq5hruQKiPXNzycaRzghZxsaZVNG3UpVsmz9szb05XFzShKFPPiIU9ayZBcDREA' />
               <tr><th><label for="id_email">E-mail:</label></th><td><input type="text" name="email" maxlength="100" id="id_email" /></td></tr>
 <tr><th><label for="id_kind">Chci:</label></th><td><select name="kind" id="id_kind">
-  <option value="">---------</option>
+  <option value="0" selected>pouze dostávat novinky</option>
 
-  <option value="0" selected>dostávat novinky</option>
+  <option value="3">aktivně se zapojit a s něčím pomoci</option>
 
-  <option value="3">pomáhat jako dobrovolník</option>
+  <option value="1">stát se příznivcem</option>
 
-  <option value="4">pomáhat jako expert</option>
+  <option value="2">stát se členem</option>
 
-  <option value="1">se stát příznivcem</option>
-
-  <option value="2">se stát členem</option>
-
-  <option value="5">již jsem člen</option>
-
-  <option value="6">již pirátím jinak</option>
 
 </select></td></tr>
 
 <tr><th><label for="id_interestedIn">Poznámka (info pro koordinátora):</label></th><td><input type="text" name="interestedIn" maxlength="100" id="id_interestedIn" /></td></tr>
 
-<tr><th><label for="id_data_consent">Souhlasím se zpracováním osobních údajů v&nbsp;rozsahu nezbytném pro poskytování požadovaných funkcí a služeb. Detaily způsobu zpracování osobních údajů
-          jsou k dispozici <a href="https://www.pirati.cz/o-nas/ochrana-osobnich-udaju/" target="_blank">online</a></label></th><td><input type="checkbox" name="data_consent" id="id_data_consent" /></td></tr>
+<tr><th><label for="id_data_consent">Souhlasím se zpracováním osobních údajů v&nbsp;rozsahu nezbytném pro poskytování požadovaných funkcí a služeb (viz  
+          <a href="https://www.pirati.cz/o-nas/ochrana-osobnich-udaju/" target="_blank">Zásady ochrany osobních údajů</a>).</label></th><td><input type="checkbox" name="data_consent" id="id_data_consent" /></td></tr>
           
 <tr><th></th><td><input type="submit" class="c-cta-button c-cta-button--primary" value="Registrovat"/></td></tr>          
               
